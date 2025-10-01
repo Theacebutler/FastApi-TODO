@@ -11,7 +11,6 @@ Base = declarative_base()
 def create_tables():
 
     # import the tables here
-    from .models import Task
     Base.metadata.create_all(bind=engine)
 
 

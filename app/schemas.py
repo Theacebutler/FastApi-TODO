@@ -14,4 +14,4 @@ class ResponseTask(BaseModel):
     title: str
     description: str | None
     created_at: datetime
-    # copmleted: bool
+    copmleted: bool
