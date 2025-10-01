@@ -1,7 +1,7 @@
 # FastApi TODO
 Because every new framwork starts with a todo app...
 
-  <a href="https://github.com/theacebutler/FastApi-TODO/blob/master/LICENSE" target="_blank">
+  <a href="https://github.com/theacebutler/FastApi-TODO/blob/main/LICENSE" target="_blank">
     <img src="https://img.shields.io/github/license/theacebutler/FastApi-TODO?color=%236963ff&label=License" alt="MIT">
     </a>
 
