@@ -30,7 +30,7 @@ async def add_task(body:Task, db:Session = Depends(get_db)):
 
 
 
-@router.get('/tasks/all', response_model=list[ResponseTask])
+@router.get('/all', response_model=list[ResponseTask])
 async def get_all_tasks(db:Session = Depends(get_db)):
     tasks = db.query(m.Task).order_by(m.Task.created_at).all()
     return tasks

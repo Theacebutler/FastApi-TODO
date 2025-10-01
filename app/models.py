@@ -11,5 +11,4 @@ class Task(Base):
     title = Column(String(255))
     description = Column(String(255), nullable=True)
     created_at = Column(DATETIME, default=datetime.now)
-    # TODO add a completed col to te db without breaking it...
-    # completed = Column(Boolean, default=False)
+    copmleted = Column(Boolean, default=False)
