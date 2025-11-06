@@ -1,0 +1,5 @@
+A: a backend for all the todos
+B: a bash script for adding todos from the terminal
+    B.2: a local cache 
+C: apple shortcus entry point
+D: frontend
