@@ -1,9 +1,11 @@
 # My stuff
+bash/backups/backup.json
+bash/backups/upload.json
+bash/backup.json
 site.db
 data.json
 alembic
 alembic.ini
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
