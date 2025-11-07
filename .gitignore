@@ -1,5 +1,6 @@
 # My stuff
 site.db
+data.json
 alembic
 alembic.ini
 
