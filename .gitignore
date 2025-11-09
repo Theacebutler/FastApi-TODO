@@ -1,7 +1,6 @@
 # My stuff
-bash/backups/backup.json
-bash/backups/upload.json
-bash/backup.json
+cli-client/backups/backup.json
+cli-client/backups/upload.json
 site.db
 data.json
 alembic
@@ -187,3 +186,4 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+cli-client/backups/upload.json
