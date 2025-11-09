@@ -1,6 +1,6 @@
 [
     {
-        "base_url": "http://127.0.0.1:8000/tasks",
+        "base_url": "https://fastapi-todo-1-k4zk.onrender.com/tasks",
         "root": "",
         "username": "",
         "password": ""
