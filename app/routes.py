@@ -35,7 +35,7 @@ async def get_all_tasks(db: Session = Depends(get_db)):
 async def get_open_tasks(db: Session = Depends(get_db)):
     tasks = (
         db.query(m.Task)
-        .filter(m.Task.copmleted == False)
+        .filter(m.Task.copmleted is False)
         .order_by(m.Task.created_at)
         .all()
     )
